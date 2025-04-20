@@ -1788,3 +1788,13 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+<<<<<<< HEAD
+=======
+.w-code-component > * {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+>>>>>>> 343f3334cfcded414a1fee0e7d35706af25c7fe9

@@ -1,0 +1,71 @@
+.rubik-container {
+	height: 100vh;
+    border-top: 2px solid #175A5D !important;
+
+}
+
+.rubik-scene { 
+	height: 100%;
+	background-color: #DAE4DF;
+	overflow: hidden;
+	font-family: 'Alegreya Sans SC';
+	color: #eee;
+}
+
+.rubik-info {
+	position: absolute;
+	bottom: 0;
+	margin: 10px;
+}
+
+.rubik-link {
+	color: #ff7600;
+	text-decoration: none;
+}
+
+.rubik-controls { 
+	position: absolute;
+	top: 0;
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	max-width: 70%;
+}
+
+.rubik-control-item {
+	margin: 0 5px;
+	padding: 0;
+	float: left;
+}
+
+.rubik-control-item:after {
+	content: '~';
+	color: #999;
+}
+
+.rubik-control-item:last-child:after {
+	content: none;
+}
+
+.rubik-control-link, .rubik-control-label {
+	margin-right: 10px;
+	font-size: 1.2em;
+	color: #eee;
+	line-height: 2em;
+}
+
+.rubik-control-select {
+	color: #333;
+	font-size: 1em;
+}
+
+.rubik-control-link:hover {
+	color: #ff7600;
+}
+
+.rubik-canvas {
+	background-color: #DAE4DF !important;
+}
+rubik-container {
+    border-top: 2px solid #175A5D !important;
+}
